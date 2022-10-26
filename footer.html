@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        #contactus {
+            width: 100%;
+            height: max-content;
+            background-color: black;
+            padding-top: 20px;
+            margin-top: 20px;
+            padding-left: 50px;
+            padding-right: 50px;
+        }
+
+        #contactus h1 {
+            padding-bottom: 10px;
+            font-size: 2.2rem;
+            color: white;
+        }
+
+        #git {
+            color: white;
+            font-size: 17px;
+            display: flex;
+            padding: 10px;
+            justify-content: center;
+        }
+
+        #gitsec {
+            display: flex;
+        }
+
+        #form {
+            /*border: solid red 2px;
+    background-color: black;*/
+
+            height: auto;
+            margin-left: 10px;
+            justify-items: center;
+        }
+
+        #form button {
+            width: 150px;
+            height: 40px;
+            background-color: gold;
+            color: black;
+            font-size: 16px;
+            border-radius: 10px;
+        }
+
+        label {
+            color: white;
+            font-size: 21px;
+            font-weight: 150;
+            padding-bottom:10px;
+        }
+
+        input {
+            width: 110%;
+            height: 30px;
+            background-color: black;
+            color: white;
+            border-radius: 10px;
+            border: solid white 2px;
+            font-size: 16px;
+            padding: 10px;
+            margin-top: 5px;
+        }
+
+        #textbox {
+            width: 110%;
+            height: 80px;
+            font-size: 18px;
+        }
+
+        #mh {
+            text-align: center;
+            font-size: 60px;
+            color: black;
+            margin-bottom: -30px;
+        }
+
+        #info {
+            height: auto;
+            padding-left: 120px;
+            padding-right: 120px;
+        }
+
+        #info h3 {
+            color: white;
+            font-weight: 50;
+            line-height: 5px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        #info h5 {
+            color: white;
+            font-weight: 50;
+            line-height: 30px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+
+
+        #info p {
+            font-size: 23px;
+            line-height: 40px;
+            font-weight: lighter;
+            color: grey;
+        }
+
+        .lastp {
+            font-size: 19px;
+            color: grey;
+            text-align: center;
+        }
+
+        .conimg {
+            width: 30px;
+            height: 30px;
+            padding-left: 3%;
+        }
+
+        #conimgdiv {
+            padding-left: 35%;
+            padding-bottom: 25px;
+        }
+
+        @media (max-width: 991px) {
+            #git {
+                display: flex;
+                flex-direction: column;
+            }
+
+            iframe {
+                width: 100%;
+            }
+
+            #gitsec {
+                display: flexbox;
+                flex-direction: column;
+                padding-left: 10px;
+            }
+
+            #info {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <div id="footer">
+        <div id="contactus">
+            <div id="git">
+                <div id="gitsec">
+                    <div id="form">
+                        <h1>Lets Get Started</h1>
+                        <form action="submit">
+                            <label for="fname">Name:</label><br>
+                            <input type="text" id="fname" name="First Name"><br>
+                            <label for="email">Email:</label><br>
+                            <input type="email" id="email" name="Email"><br>
+                            <label for="phone">Phone No:</label><br>
+                            <input type="tel" id="phone" name="Phone"><br>
+                            <label for="msg">Your Message:</label><br>
+                            <input id="textbox" type="text" id="msg" name="Your Message"><br>
+                        </form>
+                        <br>
+                        <button>Send Message</button>
+                    </div>
+                    <div id="info">
+                        <h1>Contact Details</h1><br>
+                        <h5>EMAIL</h5>
+                        <p>Info.tnit@tint.co.in</p>
+                        <h5>Phone</h5>
+                        <p>+91 123456XXXX</p>
+                        <h5>Head Office - India</h5>
+                        <p>TINT COLLEGE ,<br>West Bengal, <br>India</p>
+                    </div>
+                </div>
+                <br>
+                <div>
+                    <div>
+                        <h1>Locate Us</h1>
+
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3684.0195509556947!2d88.4735813150517!3d22.578372085179858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a02753269586b03%3A0xfbb4d0c346a81109!2sTechno%20International%20New%20Town%20(formerly%20Techno%20India%20College%20of%20Technology)!5e0!3m2!1sen!2sin!4v1666507913311!5m2!1sen!2sin"
+                            width="450" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+            <p class="lastp">ALL Right Reserverd @copy2022 | This Template is made for GDSCTINT </p>
+                <br>
+            <div id="conimgdiv">
+                <a href=""> <img class="conimg" src="images/fb.png" alt=""></a>
+                <a href=""><img class="conimg" src="images/ig.png" alt=""></a>
+                <a href=""><img class="conimg" src="images/tw1.png" alt=""></a>
+                <a href=""><img class="conimg" src="images/li.png" alt=""></a>
+                <a href=""> <img class="conimg" src="images/yt.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
